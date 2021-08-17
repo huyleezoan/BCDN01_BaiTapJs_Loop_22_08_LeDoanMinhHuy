@@ -19,6 +19,6 @@ function TimNgDuongNhoNhat() {
     i++;
   }
   document.getElementById('txtBai3').innerHTML =
-    'Số nguyên dương nhỏ nhất la: ' + i;
+    'Số nguyên dương nhỏ nhất là: ' + i;
 }
 document.getElementById('btnBai3').onclick = TimNgDuongNhoNhat;
