@@ -6,7 +6,7 @@
  * B1: Tạo biến khởi tạo từ 1 và cho bước nhảy tằng lên 1 sau mỗi vòng lặp với điều kiện vòng lặp là tổng các bước nhảy sau mỗi vòng lặp nhỏ hơn 100000
  * B2: Hiển thị kết quả lên UI
  * Khối 3:
- * Hiển thị n
+ * Hiển thị số nguyên dương nhỏ nhất
  */
 function TimNgDuongNhoNhat() {
   var i = 0;
