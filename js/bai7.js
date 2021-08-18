@@ -20,7 +20,7 @@
  *    nếu n <= 1 thì
  *        in không có số nguyên tố
  *    ngược lại
- *      Tạo biến khởi tạo từ 2 và lặp tới căn bậc 2 với biến bước nhảy tăng lên 1 sau mỗi vòng lặp
+ *      Tạo biến khởi tạo từ 2 và lặp tới n với biến bước nhảy tăng lên 1 sau mỗi vòng lặp
  * nếu biến bước nhảy thỏa là số nguyên tố thì in ra
  * B3: hiện kết quả lên UI
  * Khối 3:
