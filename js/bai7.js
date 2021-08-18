@@ -14,7 +14,13 @@
  *              nếu nó chia hết cho bất kì các số trong đoạn từ 3 đến căn bậc 2 của nó thì trả về sai
  * Cuối cùng nếu các trH ko xày ra thì trả về đúng
  * B2: In các số nguyên tố
- * Tạo biến khởi tạo từ 0 và lặp tới n với biến bước nhảy tăng lên 1 sau mỗi vòng lặp
+ * Nếu n  < 0 thì
+ *    thông báo ng dùng nhập sai
+ * ngược lại thì:
+ *    nếu n <= 1 thì
+ *        in không có số nguyên tố
+ *    ngược lại
+ *      Tạo biến khởi tạo từ 2 và lặp tới căn bậc 2 với biến bước nhảy tăng lên 1 sau mỗi vòng lặp
  * nếu biến bước nhảy thỏa là số nguyên tố thì in ra
  * B3: hiện kết quả lên UI
  * Khối 3:
@@ -45,7 +51,7 @@ function InCacSoNgToNhoHonN() {
     if (n <= 1) {
       text = 'Không có số nguyên tố';
     } else {
-      for (var i = 0; i <= n; i++) {
+      for (var i = 2; i <= n; i++) {
         if (KiemTraSoNgTo(i)) {
           text += i + ' ';
         }
