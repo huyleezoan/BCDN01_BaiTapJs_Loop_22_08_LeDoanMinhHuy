@@ -6,8 +6,7 @@
  * Khối 2:
  * B1: Tạo hàm kiểm tra có phải là số nguyên tố hay không với tham số là n
  * Nếu n< 2 thì trẳ về sai
- * ngược lại nếu n== 2 thì trả về đúng
- * ngược lại thì
+ * ngược lại nếu n>2 thì
  *      nếu n chia hết cho 2 thì trả về sai
  *      ngược lại thì
  *          Tạo biến khởi tạo từ 3 và nhỏ hơn bằng căn bậc 2 của n và tăng biến bước nhảy lên 2 sau mỗi vòng lặp vì lúc này chỉ còn toàn số lẻ
@@ -29,9 +28,7 @@
 function KiemTraSoNgTo(n) {
   if (n < 2) {
     return false;
-  } else if (n == 2) {
-    return true;
-  } else {
+  } else if (n > 2) {
     if (n % 2 == 0) return false;
     else {
       for (var i = 3; i <= Math.sqrt(n); i += 2) {
